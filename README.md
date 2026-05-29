@@ -76,7 +76,7 @@ Le modèle **Llama 3.3 70B** est un Large Language Model open-source basé sur l
 
 ## 🎬 Démonstration vidéo
 
-▶️ Vidéo de démonstration disponible sur demande.
+▶️ [Voir la vidéo de démonstration](https://drive.google.com/file/d/1053iIDjjqVy_pNrDBy1-nIlv5lIRT4V7/view?usp=drive_link)
 
 ---
 
