@@ -247,4 +247,4 @@ R: PDFs scannés ne marchent pas, besoin de texte sélectionnable
 **Date**: 27 Mai 2026  
 **Status**: ✅ **PRÊT À L'EMPLOI**
 
-Bonne chance avec votre projet Quiz Generator AI! 🎉
+
