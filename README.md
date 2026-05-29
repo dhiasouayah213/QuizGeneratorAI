@@ -90,7 +90,7 @@ Le modèle **Llama 3.3 70B** est un Large Language Model open-source basé sur l
 
 **1. Cloner le dépôt**
 ```bash
-git clone https://github.com/[votre-username]/QuizGeneratorAI.git
+git clone https://github.com/[dhiasouayah213]/QuizGeneratorAI.git
 cd QuizGeneratorAI
 ```
 
