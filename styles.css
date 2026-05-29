@@ -1,0 +1,236 @@
+/* Styles CSS personnalisés pour Quiz Generator AI */
+
+:root {
+    --primary-color: #667eea;
+    --secondary-color: #764ba2;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-gray: #f5f7fa;
+    --dark-gray: #2d3748;
+}
+
+/* Style général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    color: var(--dark-gray);
+}
+
+/* En-tête principal */
+.title-section {
+    text-align: center;
+    padding: 30px 0;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title-section h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 700;
+}
+
+.title-section p {
+    font-size: 1.1em;
+    margin: 10px 0 0 0;
+    opacity: 0.95;
+}
+
+/* Cartes */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Boutons */
+.stButton > button {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stButton > button:active {
+    transform: scale(0.98);
+}
+
+/* Messages */
+.stSuccess {
+    background-color: #d4edda;
+    border-color: var(--success-color);
+    border-left: 4px solid var(--success-color);
+}
+
+.stError {
+    background-color: #f8d7da;
+    border-color: var(--error-color);
+    border-left: 4px solid var(--error-color);
+}
+
+.stInfo {
+    background-color: #d1ecf1;
+    border-color: var(--info-color);
+    border-left: 4px solid var(--info-color);
+}
+
+.stWarning {
+    background-color: #fff3cd;
+    border-color: var(--warning-color);
+    border-left: 4px solid var(--warning-color);
+}
+
+/* Résultat du quiz */
+.quiz-result {
+    background: linear-gradient(135deg, var(--light-gray) 0%, #c3cfe2 100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid var(--primary-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-result h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* Barre latérale */
+.stSidebar {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.stSidebar [data-testid="stSidebarContent"] {
+    background: white;
+}
+
+.stSidebar h1, .stSidebar h2, .stSidebar h3 {
+    color: var(--dark-gray);
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] button {
+    font-weight: 600;
+    border-radius: 5px 5px 0 0;
+}
+
+.stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Slider */
+.stSlider [data-baseweb="slider"] {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+/* Input et Textarea */
+.stTextInput > div > div > input,
+.stTextArea > div > div > textarea {
+    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.3s ease;
+}
+
+.stTextInput > div > div > input:focus,
+.stTextArea > div > div > textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.1);
+}
+
+/* Expandable section */
+.stExpander {
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+.stExpander [data-testid="stExpanderDetails"] {
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Métrique */
+.stMetric {
+    background: var(--light-gray);
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+}
+
+/* File uploader */
+.stFileUploader {
+    border-radius: 8px;
+    border: 2px dashed var(--primary-color);
+    padding: 20px;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    color: #999;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card, .quiz-result {
+    animation: fadeIn 0.3s ease-in;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .title-section h1 {
+        font-size: 1.8em;
+    }
+    
+    .title-section p {
+        font-size: 0.95em;
+    }
+    
+    .stButton > button {
+        padding: 8px 16px;
+    }
+}

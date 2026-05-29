@@ -1,0 +1,105 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+4 0 obj
+<<
+/Length 500
+>>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(Histoire de la Pythonthon) Tj
+0 -40 Td
+/F1 12 Tf
+(Python est un langage de programmation interprete, de haut niveau et a usage general.) Tj
+0 -20 Td
+(Cree par Guido van Rossum en 1989, Python a ete concue pour favoriser la lisibilite du code.) Tj
+0 -20 Td
+(Son nom provient de la serie televisee "Monty Python's Flying Circus".) Tj
+0 -40 Td
+/F1 14 Tf
+(Caracteristiques principales) Tj
+0 -20 Td
+/F1 12 Tf
+(1. Syntaxe simple et elegante) Tj
+0 -15 Td
+(2. Interprete et dynamiquement type) Tj
+0 -15 Td
+(3. Riche ecosystem de bibliotheques) Tj
+0 -15 Td
+(4. Supporte la programmation orientee objet) Tj
+0 -15 Td
+(5. Utilise partout: web, data science, IA, automatisation) Tj
+0 -40 Td
+/F1 14 Tf
+(Versions) Tj
+0 -20 Td
+/F1 12 Tf
+(Python 2.7 (fin de vie en 2020)) Tj
+0 -15 Td
+(Python 3.x (version actuelle)) Tj
+0 -40 Td
+/F1 14 Tf
+(Utilisations) Tj
+0 -20 Td
+/F1 12 Tf
+(- Developpement web avec Django et Flask) Tj
+0 -15 Td
+(- Data science et machine learning) Tj
+0 -15 Td
+(- Automatisation de taches) Tj
+0 -15 Td
+(- Developpement de jeux) Tj
+0 -15 Td
+(- Scripts et outils systeme) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000262 00000 n 
+0000000813 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+892
+%%EOF
